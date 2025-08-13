@@ -1,0 +1,9 @@
+.DS_Store
+.kastal.xojo_uistate
+/Builds - kastal/
+/Builds\ -\ kastal/
+/Builds*-*kastal/
+kastal.prefs
+kastal.sqlite
+kastal.sqlite-shm
+kastal.sqlite-wal
