@@ -25,7 +25,6 @@ Begin WebDialog ResetPasswordDialog
    Width           =   310
    _mDesignHeight  =   0
    _mDesignWidth   =   0
-   _mName          =   ""
    _mPanelIndex    =   -1
    Begin WebRectangle Rectangle4
       BackgroundColor =   &cDFDFDF00

@@ -24,7 +24,6 @@ Begin WebContainer AdminContainer
    Width           =   546
    _mDesignHeight  =   0
    _mDesignWidth   =   0
-   _mName          =   ""
    _mPanelIndex    =   -1
    Begin WebRectangle Rectangle1
       BackgroundColor =   &cFFFFFF
@@ -135,14 +134,11 @@ Begin WebContainer AdminContainer
          Caption         =   "Music Folder Path"
          ControlID       =   ""
          CSSClasses      =   ""
-         DataField       =   ""
-         DataSource      =   ""
          Enabled         =   False
          FieldType       =   0
          FontName        =   "System"
          FontSize        =   "0.0"
          FontUnit        =   "0"
-         Format          =   ""
          HasBorder       =   "True"
          Height          =   62
          Hint            =   ""
@@ -173,7 +169,6 @@ Begin WebContainer AdminContainer
          Top             =   1156
          Transparent     =   "False"
          Underline       =   "False"
-         ValidationMask  =   ""
          Visible         =   True
          Width           =   466
          _mPanelIndex    =   -1

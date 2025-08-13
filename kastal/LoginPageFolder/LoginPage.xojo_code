@@ -25,14 +25,13 @@ Begin WebPage LoginPage
    PanelIndex      =   0
    ScaleFactor     =   0.0
    TabIndex        =   0
-   Title           =   "kastal - Log In"
+   Title           =   "kastal | Log In"
    Top             =   0
    Visible         =   True
    Width           =   300
    _ImplicitInstance=   False
    _mDesignHeight  =   0
    _mDesignWidth   =   0
-   _mName          =   ""
    _mPanelIndex    =   -1
    Begin WebRectangle Rectangle3
       BackgroundColor =   &cF9F3D200
@@ -370,7 +369,7 @@ Begin WebPage LoginPage
          TabIndex        =   2
          TabPanelIndex   =   "0"
          TabStop         =   True
-         Text            =   "kastal - Log In"
+         Text            =   "kastal | Log In"
          TextAlignment   =   2
          TextColor       =   &cFFFFFF00
          Tooltip         =   ""
