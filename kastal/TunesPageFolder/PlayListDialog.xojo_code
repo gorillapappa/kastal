@@ -25,6 +25,7 @@ Begin WebDialog PlayListDialog
    Width           =   346
    _mDesignHeight  =   0
    _mDesignWidth   =   0
+   _mName          =   ""
    _mPanelIndex    =   -1
    Begin WebRectangle Rectangle1
       BackgroundColor =   &c42424200

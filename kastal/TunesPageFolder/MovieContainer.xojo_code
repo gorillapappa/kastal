@@ -24,6 +24,7 @@ Begin WebContainer MovieContainer
    Width           =   482
    _mDesignHeight  =   0
    _mDesignWidth   =   0
+   _mName          =   ""
    _mPanelIndex    =   -1
    Begin WebRectangle Rectangle2
       BackgroundColor =   &c42424200

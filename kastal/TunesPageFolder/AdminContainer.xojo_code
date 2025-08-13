@@ -24,6 +24,7 @@ Begin WebContainer AdminContainer
    Width           =   546
    _mDesignHeight  =   0
    _mDesignWidth   =   0
+   _mName          =   ""
    _mPanelIndex    =   -1
    Begin WebRectangle Rectangle1
       BackgroundColor =   &cFFFFFF
