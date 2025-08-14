@@ -24,7 +24,6 @@ Begin WebContainer AdminContainer
    Width           =   546
    _mDesignHeight  =   0
    _mDesignWidth   =   0
-   _mName          =   ""
    _mPanelIndex    =   -1
    Begin WebRectangle Rectangle1
       BackgroundColor =   &cFFFFFF
@@ -1281,10 +1280,6 @@ End
 		    if f.Exists then
 		      if MyScan4TunesThread.ThreadState=Thread.ThreadStates.NotRunning then
 		        MyScan4TunesThread.run
-		        //Seems we can not have two preempting threads hammering the DB with writes at the same time, DB will choke.
-		        //So we prevent the Scan4MoviesThread to be started untill this thread is done.
-		        
-		        
 		      else
 		        MessageBox("There is a already a scan in progress")
 		      end if
