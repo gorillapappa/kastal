@@ -20,7 +20,7 @@
 -  Win
 -  Linux
 ## Quick Start
-1) Download the appropriate [precompiled binary](https://github.com/gorillapappa/kastal/tree/main/Compiled%20Apps/RaspberryPi) and unzip it on the local server.
+1) Download the appropriate [precompiled binary](https://github.com/gorillapappa/kastal/tree/main/Compiled%20Apps) and unzip it on the local server.
 2) Run the following command in terminal:  
 path/to/kastal/kastal --Port=8888 --UrlLength=1024
 3) Then visit http://YourServerIP:8888/ to log in.
