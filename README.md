@@ -19,5 +19,13 @@
 -  Mac
 -  Win
 -  Linux
+## Quick Start
+1) Download the appropriate [precompiled binary](https://github.com/gorillapappa/kastal/tree/main/Compiled%20Apps/RaspberryPi) and unzip it on the local server.
+2) Run the following command in terminal:  
+path/to/kastal/kastal --Port=8888 --UrlLength=1024
+3) Then visit http://YourServerIP:8888 to log in.
+4) The first user to log in will get an admin account.
+5) Set up the paths to your music and movie library folder in the "Admin" area and click the "Scan Music/Movie Folder" button.
+6) Enjoy!
 ### Screenshots
 <img src="https://github.com/gorillapappa/kastal/blob/main/screenshots/musiclibrary.jpg" width="300"/> 
