@@ -84,7 +84,7 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle1"
          Scope           =   0
          TabIndex        =   32
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   "Remove Indexes"
          Top             =   1226
@@ -116,7 +116,7 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle1"
          Scope           =   0
          TabIndex        =   31
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   "Create Indexes"
          Top             =   1226
@@ -161,7 +161,7 @@ Begin WebContainer AdminContainer
          ReadOnly        =   False
          Scope           =   0
          TabIndex        =   0
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
@@ -198,7 +198,7 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle1"
          Scope           =   0
          TabIndex        =   1
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   ""
          Top             =   1226
@@ -232,7 +232,7 @@ Begin WebContainer AdminContainer
          ReadOnly        =   False
          Scope           =   0
          TabIndex        =   2
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
@@ -266,7 +266,7 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle1"
          Scope           =   0
          TabIndex        =   3
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   ""
          Top             =   1340
@@ -296,7 +296,7 @@ Begin WebContainer AdminContainer
          SVGColor        =   &c00000000
          SVGData         =   ""
          TabIndex        =   29
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   ""
          Top             =   1226
@@ -326,7 +326,7 @@ Begin WebContainer AdminContainer
          SVGColor        =   &c00000000
          SVGData         =   ""
          TabIndex        =   30
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   ""
          Top             =   1340
@@ -427,7 +427,7 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle2"
          Scope           =   0
          TabIndex        =   13
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   "Send test email to yourself"
          Top             =   1722
@@ -461,7 +461,7 @@ Begin WebContainer AdminContainer
          ReadOnly        =   False
          Scope           =   0
          TabIndex        =   15
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
@@ -497,7 +497,7 @@ Begin WebContainer AdminContainer
          ReadOnly        =   False
          Scope           =   0
          TabIndex        =   16
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
@@ -533,7 +533,7 @@ Begin WebContainer AdminContainer
          ReadOnly        =   False
          Scope           =   0
          TabIndex        =   17
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
@@ -569,7 +569,7 @@ Begin WebContainer AdminContainer
          ReadOnly        =   False
          Scope           =   0
          TabIndex        =   18
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
@@ -603,7 +603,7 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle2"
          Scope           =   0
          TabIndex        =   14
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   ""
          Top             =   1722
@@ -705,7 +705,7 @@ Begin WebContainer AdminContainer
          SelectedRowIndex=   0
          SelectedRowText =   ""
          TabIndex        =   0
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   ""
          Top             =   735
@@ -737,7 +737,7 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle3"
          Scope           =   0
          TabIndex        =   1
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
@@ -773,7 +773,7 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle3"
          Scope           =   0
          TabIndex        =   2
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
@@ -824,7 +824,7 @@ Begin WebContainer AdminContainer
          SelectedRowColor=   &c0d6efd
          SelectedRowIndex=   0
          TabIndex        =   3
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   ""
          Top             =   511
@@ -856,7 +856,7 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle3"
          Scope           =   0
          TabIndex        =   4
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   ""
          Top             =   1042
@@ -890,7 +890,7 @@ Begin WebContainer AdminContainer
          ReadOnly        =   False
          Scope           =   0
          TabIndex        =   21
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
@@ -926,7 +926,7 @@ Begin WebContainer AdminContainer
          ReadOnly        =   False
          Scope           =   0
          TabIndex        =   22
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
@@ -960,7 +960,7 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle3"
          Scope           =   0
          TabIndex        =   23
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   ""
          Top             =   996
@@ -992,7 +992,7 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle3"
          Scope           =   0
          TabIndex        =   24
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   ""
          Top             =   1042
@@ -1142,7 +1142,7 @@ Begin WebContainer AdminContainer
          SelectedRowColor=   &c0d6efd
          SelectedRowIndex=   0
          TabIndex        =   27
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   ""
          Top             =   74
@@ -1174,7 +1174,7 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle4"
          Scope           =   0
          TabIndex        =   28
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   ""
          Top             =   406
@@ -1260,6 +1260,15 @@ End
 #tag Events Button1
 	#tag Event
 		Sub Pressed()
+		  //Seems we can not have two preempting threads hammering the DB with writes at the same time, it will choke the DB.
+		  //So we prevent  this Scan4TunesThread to be started if the Scan4MoviesThread is running.
+		  if MyScan4MoviesThread<>nil then
+		    if MyScan4MoviesThread.ThreadState=Thread.ThreadStates.Running then
+		      MessageBox("Please wait untill the Movie folder scanning has completed")
+		      Return
+		    end if
+		  end if
+		  
 		  //Check if the path represents a folder
 		  Var f As New FolderItem(GetPrefsValue("MyMusicFolder"), FolderItem.PathModes.Shell)
 		  
@@ -1272,6 +1281,10 @@ End
 		    if f.Exists then
 		      if MyScan4TunesThread.ThreadState=Thread.ThreadStates.NotRunning then
 		        MyScan4TunesThread.run
+		        //Seems we can not have two preempting threads hammering the DB with writes at the same time, DB will choke.
+		        //So we prevent the Scan4MoviesThread to be started untill this thread is done.
+		        
+		        
 		      else
 		        MessageBox("There is a already a scan in progress")
 		      end if
@@ -1300,6 +1313,15 @@ End
 #tag Events Button2
 	#tag Event
 		Sub Pressed()
+		  //Seems we can not have two preempting threads hammering the DB with writes at the same time, it will choke the DB.
+		  //So we prevent  this Scan4MoviesThread to be started if the Scan4TunesThread is running.
+		  if MyScan4TunesThread<>nil then
+		    if MyScan4TunesThread.ThreadState=Thread.ThreadStates.Running then
+		      MessageBox("Please wait untill the Music folder scanning has completed")
+		      Return
+		    end if
+		  end if
+		  
 		  //Check if the path represents a folder
 		  Var f As New FolderItem(GetPrefsValue("MyMovieFolder"), FolderItem.PathModes.Shell)
 		  

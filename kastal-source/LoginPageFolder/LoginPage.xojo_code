@@ -32,7 +32,6 @@ Begin WebPage LoginPage
    _ImplicitInstance=   False
    _mDesignHeight  =   0
    _mDesignWidth   =   0
-   _mName          =   ""
    _mPanelIndex    =   -1
    Begin WebRectangle Rectangle3
       BackgroundColor =   &cF9F3D200
@@ -127,7 +126,7 @@ Begin WebPage LoginPage
          Parent          =   "Rectangle2"
          Scope           =   0
          TabIndex        =   8
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Text            =   "Dont have an account?"
          TextAlignment   =   2
@@ -165,7 +164,7 @@ Begin WebPage LoginPage
          ReadOnly        =   False
          Scope           =   0
          TabIndex        =   3
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
@@ -201,7 +200,7 @@ Begin WebPage LoginPage
          ReadOnly        =   False
          Scope           =   0
          TabIndex        =   4
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
@@ -232,7 +231,7 @@ Begin WebPage LoginPage
          Parent          =   "Rectangle2"
          Scope           =   0
          TabIndex        =   10
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   ""
          Top             =   266
@@ -265,7 +264,7 @@ Begin WebPage LoginPage
          Parent          =   "Rectangle2"
          Scope           =   0
          TabIndex        =   11
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   ""
          Top             =   220
@@ -297,7 +296,7 @@ Begin WebPage LoginPage
          Parent          =   "Rectangle2"
          Scope           =   0
          TabIndex        =   9
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Text            =   "Forgot Your Password?"
          TextAlignment   =   2
@@ -368,7 +367,7 @@ Begin WebPage LoginPage
          Parent          =   "Rectangle1"
          Scope           =   0
          TabIndex        =   2
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Text            =   "kastal | Log In"
          TextAlignment   =   2
@@ -440,7 +439,7 @@ Begin WebPage LoginPage
          Parent          =   "AccountFooter"
          Scope           =   0
          TabIndex        =   0
-         TabPanelIndex   =   "0"
+         TabPanelIndex   =   0
          TabStop         =   True
          Text            =   "©2024 xequator - All rights reserved"
          TextAlignment   =   2
