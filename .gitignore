@@ -1,8 +1,8 @@
 .DS_Store
 .kastal.xojo_uistate
-/kastal/Builds - kastal/
-/kastal/Builds\ -\ kastal/
-/kastal/Builds*-*kastal/
+/kastal-source/Builds - kastal/
+/kastal-source/Builds\ -\ kastal/
+/kastal-source/Builds*-*kastal/
 kastal.prefs
 kastal.sqlite
 kastal.sqlite-shm
