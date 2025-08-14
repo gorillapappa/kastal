@@ -18,4 +18,5 @@
 -  Raspberry Pi (2 and above, altough Gigabit Ethernet is highly recommended)
 -  Mac
 -  Win
--  Linux  
+-  Linux
+<img src="https://github.com/gorillapappa/kastal/blob/main/screenshots/musiclibrary.jpg" width="300"/> 
