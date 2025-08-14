@@ -1,4 +1,4 @@
-# kastal ⛫
+# ⛫ kastal
 ## A secure personal media server that streams music and movies to all types of devices over the web
 ### Main features:
 -  Easily handles a media library consisting of tens of thousands of audio and video files, even on a Raspberry Pi
