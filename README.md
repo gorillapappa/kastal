@@ -5,7 +5,7 @@
 -  Reads valid ID3 Tags
 -  Streams media files of any size, to any web browser
 -  Multi threaded quick scanning of local music and movie folders
--  Simple and easy to use user interface on all devises, less is more
+-  Simple and easy to use user interface on all devices, less is more...
 -  Secure multi user support with secure email verification password reset functionality
 -  Quick search for Song title, album, band or Movie title
 -  Create private and/or public playlists
@@ -25,7 +25,7 @@
 path/to/kastal/kastal --Port=8888 --UrlLength=1024
 3) Then visit http://YourServerIP:8888/ to log in.
 4) The first user to log in will automatically be assigned an admin account.
-5) Set up the paths to your music and movie library folder in the "Admin" area and click the "Scan Music/Movie Folder" button.
+5) Set up the paths to your music and movie library folders in the "Admin" area and click the "Scan Music/Movie Folder" button.
 6) Enjoy!  
 (For HTTPS check [here](https://documentation.xojo.com/topics/web/ssl_for_web_apps.html) or use a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy) like [nginx](https://nginx.org/) or similar.)
 ### Screenshots
