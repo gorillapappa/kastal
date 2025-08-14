@@ -19,4 +19,5 @@
 -  Mac
 -  Win
 -  Linux
+### Screenshots
 <img src="https://github.com/gorillapappa/kastal/blob/main/screenshots/musiclibrary.jpg" width="300"/> 
