@@ -24,7 +24,6 @@ Begin WebContainer MusicContainer
    Width           =   482
    _mDesignHeight  =   0
    _mDesignWidth   =   0
-   _mName          =   ""
    _mPanelIndex    =   -1
    Begin WebRectangle Rectangle2
       BackgroundColor =   &c42424200
@@ -721,11 +720,13 @@ End
 		    TunesListBox.SelectedRowIndex=rnd
 		    tuneID=TunesListBox.RowTagAt(rnd).StringValue
 		    
-		    #if  DebugBuild then
-		      TunePlayer.url="http://"+Session.Host+myBasePath+"?sid="+Session.Identifier+"&gimmie=datune&id="+tuneID
-		    #else
-		      TunePlayer.url="https://"+Session.Host+myBasePath+"?sid="+Session.Identifier+"&gimmie=datune&id="+tuneID
-		    #endif
+		    
+		    if USEhttpsURLs then
+		      TunePlayer.url="https://"+Session.Host+myBasePath+"206-media-request/s"+Session.Identifier+"/1/"+tuneID
+		    else
+		      TunePlayer.url="http://"+Session.Host+myBasePath+"206-media-request/s"+Session.Identifier+"/1/"+tuneID
+		    end if
+		    
 		    
 		  end select
 		  
@@ -792,11 +793,13 @@ End
 		  End Select
 		  
 		  If tuneID<>"" Then
-		    #If  DebugBuild Then
-		      TunePlayer.url="http://"+Session.Host+myBasePath+"?sid="+Session.Identifier+"&gimmie=datune&id="+tuneID
-		    #Else
-		      TunePlayer.url="https://"+Session.Host+myBasePath+"?sid="+Session.Identifier+"&gimmie=datune&id="+tuneID
-		    #EndIf
+		    
+		    if USEhttpsURLs = true then
+		      TunePlayer.url="https://"+Session.Host+myBasePath+"206-media-request/s"+Session.Identifier+"/1/"+tuneID
+		    else
+		      TunePlayer.url="http://"+Session.Host+myBasePath+"206-media-request/s"+Session.Identifier+"/1/"+tuneID
+		    end if
+		    
 		    
 		    TunePlayer.Play
 		  End If
@@ -870,11 +873,13 @@ End
 		    Var tuneID As String
 		    tuneID=TunesListBox.RowTagAt(row).StringValue
 		    
-		    #if  DebugBuild then
-		      TunePlayer.url="http://"+Session.Host+myBasePath+"?sid="+Session.Identifier+"&gimmie=datune&id="+tuneID
-		    #else
-		      TunePlayer.url="https://"+Session.Host+myBasePath+"?sid="+Session.Identifier+"&gimmie=datune&id="+tuneID
-		    #endif
+		    
+		    if USEhttpsURLs=true then
+		      TunePlayer.url="https://"+Session.Host+myBasePath+"206-media-request/s"+Session.Identifier+"/1/"+tuneID
+		    else
+		      TunePlayer.url="http://"+Session.Host+myBasePath+"206-media-request/s"+Session.Identifier+"/1/"+tuneID
+		    end if
+		    
 		    
 		  end if
 		End Sub

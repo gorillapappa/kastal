@@ -5,7 +5,7 @@ Begin WebContainer AdminContainer
    ControlID       =   ""
    CSSClasses      =   ""
    Enabled         =   True
-   Height          =   1795
+   Height          =   1967
    Indicator       =   0
    LayoutDirection =   0
    LayoutType      =   0
@@ -53,7 +53,7 @@ Begin WebContainer AdminContainer
       TabIndex        =   4
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   1136
+      Top             =   214
       Visible         =   True
       Width           =   506
       _mDesignHeight  =   0
@@ -83,10 +83,10 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle1"
          Scope           =   0
          TabIndex        =   32
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Tooltip         =   "Remove Indexes"
-         Top             =   1226
+         Top             =   304
          Visible         =   False
          Width           =   70
          _mPanelIndex    =   -1
@@ -115,10 +115,10 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle1"
          Scope           =   0
          TabIndex        =   31
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Tooltip         =   "Create Indexes"
-         Top             =   1226
+         Top             =   304
          Visible         =   False
          Width           =   64
          _mPanelIndex    =   -1
@@ -160,13 +160,13 @@ Begin WebContainer AdminContainer
          ReadOnly        =   False
          Scope           =   0
          TabIndex        =   0
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
          TextColor       =   "0"
          Tooltip         =   ""
-         Top             =   1156
+         Top             =   234
          Transparent     =   "False"
          Underline       =   "False"
          Visible         =   True
@@ -197,10 +197,10 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle1"
          Scope           =   0
          TabIndex        =   1
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Tooltip         =   ""
-         Top             =   1226
+         Top             =   304
          Visible         =   True
          Width           =   180
          _mPanelIndex    =   -1
@@ -231,12 +231,12 @@ Begin WebContainer AdminContainer
          ReadOnly        =   False
          Scope           =   0
          TabIndex        =   2
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
          Tooltip         =   ""
-         Top             =   1270
+         Top             =   348
          Visible         =   True
          Width           =   466
          _mPanelIndex    =   -1
@@ -265,10 +265,10 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle1"
          Scope           =   0
          TabIndex        =   3
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Tooltip         =   ""
-         Top             =   1340
+         Top             =   418
          Visible         =   True
          Width           =   180
          _mPanelIndex    =   -1
@@ -295,10 +295,10 @@ Begin WebContainer AdminContainer
          SVGColor        =   &c00000000
          SVGData         =   ""
          TabIndex        =   29
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Tooltip         =   ""
-         Top             =   1226
+         Top             =   304
          Visible         =   False
          Width           =   32
          _mPanelIndex    =   -1
@@ -325,10 +325,10 @@ Begin WebContainer AdminContainer
          SVGColor        =   &c00000000
          SVGData         =   ""
          TabIndex        =   30
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Tooltip         =   ""
-         Top             =   1340
+         Top             =   418
          Visible         =   False
          Width           =   32
          _mPanelIndex    =   -1
@@ -362,7 +362,7 @@ Begin WebContainer AdminContainer
       TextAlignment   =   0
       TextColor       =   &c000000FF
       Tooltip         =   ""
-      Top             =   1104
+      Top             =   182
       Underline       =   False
       Visible         =   True
       Width           =   446
@@ -396,7 +396,7 @@ Begin WebContainer AdminContainer
       TabIndex        =   6
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   1433
+      Top             =   1595
       Visible         =   True
       Width           =   506
       _mDesignHeight  =   0
@@ -426,10 +426,10 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle2"
          Scope           =   0
          TabIndex        =   13
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Tooltip         =   "Send test email to yourself"
-         Top             =   1722
+         Top             =   1884
          Visible         =   True
          Width           =   65
          _mPanelIndex    =   -1
@@ -460,12 +460,12 @@ Begin WebContainer AdminContainer
          ReadOnly        =   False
          Scope           =   0
          TabIndex        =   15
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
          Tooltip         =   ""
-         Top             =   1652
+         Top             =   1814
          Visible         =   True
          Width           =   466
          _mPanelIndex    =   -1
@@ -496,12 +496,12 @@ Begin WebContainer AdminContainer
          ReadOnly        =   False
          Scope           =   0
          TabIndex        =   16
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
          Tooltip         =   ""
-         Top             =   1512
+         Top             =   1674
          Visible         =   True
          Width           =   466
          _mPanelIndex    =   -1
@@ -532,12 +532,12 @@ Begin WebContainer AdminContainer
          ReadOnly        =   False
          Scope           =   0
          TabIndex        =   17
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
          Tooltip         =   ""
-         Top             =   1582
+         Top             =   1744
          Visible         =   True
          Width           =   466
          _mPanelIndex    =   -1
@@ -568,12 +568,12 @@ Begin WebContainer AdminContainer
          ReadOnly        =   False
          Scope           =   0
          TabIndex        =   18
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
          Tooltip         =   ""
-         Top             =   1442
+         Top             =   1604
          Visible         =   True
          Width           =   466
          _mPanelIndex    =   -1
@@ -602,10 +602,10 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle2"
          Scope           =   0
          TabIndex        =   14
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Tooltip         =   ""
-         Top             =   1722
+         Top             =   1884
          Visible         =   True
          Width           =   115
          _mPanelIndex    =   -1
@@ -627,7 +627,7 @@ Begin WebContainer AdminContainer
       LockedInPosition=   False
       LockHorizontal  =   False
       LockLeft        =   True
-      LockRight       =   False
+      LockRight       =   True
       LockTop         =   True
       LockVertical    =   False
       Multiline       =   False
@@ -638,11 +638,11 @@ Begin WebContainer AdminContainer
       Text            =   "Email settings (SMTP)"
       TextAlignment   =   0
       TextColor       =   &c000000FF
-      Tooltip         =   ""
-      Top             =   1401
+      Tooltip         =   "Required in order for users to reset their passwords themselves."
+      Top             =   1563
       Underline       =   False
       Visible         =   True
-      Width           =   446
+      Width           =   506
       _mPanelIndex    =   -1
    End
    Begin WebRectangle Rectangle3
@@ -673,7 +673,7 @@ Begin WebContainer AdminContainer
       TabIndex        =   19
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   500
+      Top             =   514
       Visible         =   True
       Width           =   506
       _mDesignHeight  =   0
@@ -704,10 +704,10 @@ Begin WebContainer AdminContainer
          SelectedRowIndex=   0
          SelectedRowText =   ""
          TabIndex        =   0
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Tooltip         =   ""
-         Top             =   735
+         Top             =   749
          Visible         =   True
          Width           =   405
          _mPanelIndex    =   -1
@@ -736,13 +736,13 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle3"
          Scope           =   0
          TabIndex        =   1
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
          TextColor       =   &c000000FF
          Tooltip         =   ""
-         Top             =   921
+         Top             =   935
          Underline       =   False
          Visible         =   True
          Width           =   466
@@ -772,13 +772,13 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle3"
          Scope           =   0
          TabIndex        =   2
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
          TextColor       =   &c000000FF
          Tooltip         =   ""
-         Top             =   735
+         Top             =   749
          Underline       =   False
          Visible         =   True
          Width           =   53
@@ -823,10 +823,10 @@ Begin WebContainer AdminContainer
          SelectedRowColor=   &c0d6efd
          SelectedRowIndex=   0
          TabIndex        =   3
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Tooltip         =   ""
-         Top             =   511
+         Top             =   525
          Visible         =   True
          Width           =   466
          _mPanelIndex    =   -1
@@ -855,10 +855,10 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle3"
          Scope           =   0
          TabIndex        =   4
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Tooltip         =   ""
-         Top             =   1042
+         Top             =   1056
          Visible         =   True
          Width           =   114
          _mPanelIndex    =   -1
@@ -889,12 +889,12 @@ Begin WebContainer AdminContainer
          ReadOnly        =   False
          Scope           =   0
          TabIndex        =   21
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
          Tooltip         =   ""
-         Top             =   781
+         Top             =   795
          Visible         =   True
          Width           =   466
          _mPanelIndex    =   -1
@@ -925,12 +925,12 @@ Begin WebContainer AdminContainer
          ReadOnly        =   False
          Scope           =   0
          TabIndex        =   22
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Text            =   ""
          TextAlignment   =   0
          Tooltip         =   ""
-         Top             =   851
+         Top             =   865
          Visible         =   True
          Width           =   466
          _mPanelIndex    =   -1
@@ -959,10 +959,10 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle3"
          Scope           =   0
          TabIndex        =   23
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Tooltip         =   ""
-         Top             =   996
+         Top             =   1010
          Visible         =   True
          Width           =   139
          _mPanelIndex    =   -1
@@ -991,10 +991,10 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle3"
          Scope           =   0
          TabIndex        =   24
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Tooltip         =   ""
-         Top             =   1042
+         Top             =   1056
          Visible         =   True
          Width           =   139
          _mPanelIndex    =   -1
@@ -1028,7 +1028,7 @@ Begin WebContainer AdminContainer
       TextAlignment   =   0
       TextColor       =   &c000000FF
       Tooltip         =   ""
-      Top             =   465
+      Top             =   479
       Underline       =   False
       Visible         =   True
       Width           =   446
@@ -1062,7 +1062,7 @@ Begin WebContainer AdminContainer
       TextAlignment   =   0
       TextColor       =   &c000000FF
       Tooltip         =   ""
-      Top             =   20
+      Top             =   1118
       Underline       =   False
       Visible         =   True
       Width           =   446
@@ -1096,7 +1096,7 @@ Begin WebContainer AdminContainer
       TabIndex        =   26
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   54
+      Top             =   1152
       Visible         =   True
       Width           =   506
       _mDesignHeight  =   0
@@ -1141,10 +1141,10 @@ Begin WebContainer AdminContainer
          SelectedRowColor=   &c0d6efd
          SelectedRowIndex=   0
          TabIndex        =   27
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Tooltip         =   ""
-         Top             =   74
+         Top             =   1172
          Visible         =   True
          Width           =   466
          _mPanelIndex    =   -1
@@ -1173,10 +1173,10 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle4"
          Scope           =   0
          TabIndex        =   28
-         TabPanelIndex   =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Tooltip         =   ""
-         Top             =   406
+         Top             =   1504
          Visible         =   True
          Width           =   169
          _mPanelIndex    =   -1
@@ -1192,6 +1192,177 @@ Begin WebContainer AdminContainer
       Period          =   5000
       RunMode         =   2
       Scope           =   2
+      _mPanelIndex    =   -1
+   End
+   Begin WebRectangle Rectangle5
+      BackgroundColor =   &cFFFFFF
+      BorderColor     =   &c000000FF
+      BorderThickness =   1
+      ControlCount    =   0
+      ControlID       =   ""
+      CornerSize      =   -1
+      CSSClasses      =   ""
+      Enabled         =   True
+      HasBackgroundColor=   False
+      Height          =   120
+      Index           =   -2147483648
+      Indicator       =   ""
+      LayoutDirection =   "LayoutDirections.LeftToRight"
+      LayoutType      =   "LayoutTypes.Fixed"
+      Left            =   20
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   True
+      LockTop         =   True
+      LockVertical    =   False
+      PanelIndex      =   0
+      Scope           =   2
+      TabIndex        =   34
+      TabStop         =   True
+      Tooltip         =   ""
+      Top             =   54
+      Visible         =   True
+      Width           =   506
+      _mDesignHeight  =   0
+      _mDesignWidth   =   0
+      _mPanelIndex    =   -1
+      Begin WebCheckbox Checkbox1
+         Caption         =   "Use secure https media URLs"
+         ControlID       =   ""
+         CSSClasses      =   ""
+         Enabled         =   False
+         Height          =   34
+         Indeterminate   =   False
+         Index           =   -2147483648
+         Indicator       =   ""
+         Left            =   40
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockHorizontal  =   False
+         LockLeft        =   True
+         LockRight       =   True
+         LockTop         =   True
+         LockVertical    =   False
+         PanelIndex      =   0
+         Parent          =   "Rectangle5"
+         Scope           =   2
+         TabIndex        =   0
+         TabStop         =   True
+         Tooltip         =   ""
+         Top             =   64
+         Value           =   False
+         Visible         =   True
+         Width           =   466
+         _mPanelIndex    =   -1
+      End
+      Begin WebLabel Label6
+         Bold            =   False
+         ControlID       =   ""
+         CSSClasses      =   ""
+         Enabled         =   True
+         FontName        =   ""
+         FontSize        =   12.0
+         Height          =   58
+         Index           =   -2147483648
+         Indicator       =   ""
+         Italic          =   False
+         Left            =   40
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockHorizontal  =   False
+         LockLeft        =   True
+         LockRight       =   True
+         LockTop         =   True
+         LockVertical    =   False
+         Multiline       =   True
+         PanelIndex      =   0
+         Parent          =   "Rectangle5"
+         Scope           =   2
+         TabIndex        =   36
+         TabStop         =   True
+         Text            =   "Requires that you set up https, either on the app itself or through a reverse proxy like nginx."
+         TextAlignment   =   0
+         TextColor       =   &cFF260000
+         Tooltip         =   ""
+         Top             =   106
+         Underline       =   False
+         Visible         =   True
+         Width           =   466
+         _mPanelIndex    =   -1
+      End
+      Begin WebLink Link1
+         Appearance      =   0
+         Bold            =   False
+         ControlID       =   ""
+         CSSClasses      =   ""
+         Enabled         =   True
+         FontName        =   ""
+         FontSize        =   12.0
+         Height          =   38
+         Index           =   -2147483648
+         Indicator       =   ""
+         Italic          =   False
+         Left            =   308
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockHorizontal  =   False
+         LockLeft        =   False
+         LockRight       =   True
+         LockTop         =   True
+         LockVertical    =   False
+         Multiline       =   False
+         PanelIndex      =   0
+         Parent          =   "Rectangle5"
+         Scope           =   0
+         TabIndex        =   37
+         TabStop         =   True
+         Target          =   1
+         Text            =   "More info here"
+         TextAlignment   =   3
+         TextColor       =   &c000000FF
+         Tooltip         =   ""
+         Top             =   126
+         Underline       =   False
+         URL             =   "https://documentation.xojo.com/topics/web/ssl_for_web_apps.html"
+         Visible         =   True
+         Width           =   198
+         _mPanelIndex    =   -1
+      End
+   End
+   Begin WebLabel Label5
+      Bold            =   False
+      ControlID       =   ""
+      CSSClasses      =   ""
+      Enabled         =   True
+      FontName        =   ""
+      FontSize        =   0.0
+      Height          =   38
+      Index           =   -2147483648
+      Indicator       =   ""
+      Italic          =   False
+      Left            =   20
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   True
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      PanelIndex      =   0
+      Scope           =   2
+      TabIndex        =   35
+      TabStop         =   True
+      Text            =   "HTTPS media delivery"
+      TextAlignment   =   0
+      TextColor       =   &c000000FF
+      Tooltip         =   ""
+      Top             =   20
+      Underline       =   False
+      Visible         =   True
+      Width           =   506
       _mPanelIndex    =   -1
    End
 End
@@ -1582,6 +1753,30 @@ End
 		    else
 		      MovieScannerProgress.Visible=true
 		    end if
+		  end if
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events Checkbox1
+	#tag Event
+		Sub ValueChanged()
+		  if me.enabled=true then
+		    if me.Value=true then
+		      setprefsvalue("https", "1")
+		      USEhttpsURLs=true
+		      MessageBox("Make sure you have set up https correctly!"+EndOfLine+"If not media will not play.")
+		    else
+		      SetPrefsValue("https", "0")
+		      USEhttpsURLs=false
+		    end if
+		  end if
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub Opening()
+		  if USEhttpsURLs=true then
+		    me.value=true
+		    me.enabled=true
 		  end if
 		End Sub
 	#tag EndEvent

@@ -3,110 +3,125 @@ Protected Class App
 Inherits WebApplication
 	#tag Event
 		Function HandleURL(request As WebRequest, response As WebResponse) As Boolean
-		  if Request.Parameter ( "gimmie" ) <> "" and Request.Parameter ( "sid" ) <> "" then //We have a valid formated mediafile request
-		    
-		    //Check for logged in session to protect from unauthorized access to media.
-		    Var sessionOK As Boolean = False
-		    Var sID As String
-		    sID = Request.Parameter ( "sid" )
-		    For i As Integer = 0 To App.SessionCount - 1
-		      if sid = App.SessionAt(i).Identifier then
-		        if App.SessionAt(i).myState>10 then
-		          sessionOK=True
+		  Var myPath, PathParts() As String
+		  //myPath is used to harmonize with a BaseURL
+		  //BaseURL = /path with innitial slash, but Request.Path has no innitial slash,
+		  //so we need to replicate Request.Path pattern here when handling the Request.Path with a BaseURL
+		  myPath = request.Path.Replace(myBasePath.Middle(1), "") //Strips away the BaseURL
+		  
+		  // Validate media request
+		  // Valid media request formats are /myBasePath/206-media-request/s+SessionID/x/MediaID or /206-media-request/s+SessionID/x/MediaID
+		  // x = 1 => audio
+		  // x = 2 => video
+		  
+		  PathParts=Split(myPath, "/")
+		  
+		  if PathParts.Count=4 then
+		    if PathParts(0)="206-media-request" then
+		      
+		      PathParts(1)=PathParts(1).Middle(1)
+		      
+		      //Check for logged in session to protect from unauthorized access to media.
+		      Var sessionOK As Boolean = False
+		      For i As Integer = 0 To App.SessionCount - 1
+		        if PathParts(1) = App.SessionAt(i).Identifier then
+		          if App.SessionAt(i).myState>10 then
+		            sessionOK=True
+		          end if
+		          exit
 		        end if
-		        exit
+		      Next
+		      
+		      if sessionOK = false then
+		        spit404(response)
+		        return True
 		      end if
-		    Next
-		    
-		    if sessionOK = false then
-		      spit404(response)
-		      return True
+		      
+		      Var rs as RowSet
+		      
+		      select case PathParts(2)
+		      case "2" //Video
+		        
+		        Try
+		          rs = MyDB.SelectSQL("SELECT Location FROM tblMovies WHERE MovieID = ?", PathParts(3))
+		        Catch error As DatabaseException
+		          spit404(response)
+		          return True
+		        End Try
+		        
+		        if rs.RowCount>0 then
+		          rs.MoveToFirstRow
+		          
+		          Var f As New FolderItem(rs.Column("Location").StringValue, FolderItem.PathModes.Shell)
+		          
+		          If f <> Nil then
+		            if  f.Exists Then
+		              
+		              if spitFile206(response, f, Request.Header("Range").LastField("="), "moov_"+PathParts(3)+f.Name.LastField(".")) = true then
+		                return true
+		              else
+		                spit404(response)
+		                return True
+		              end if
+		              
+		            else
+		              spit404(response)
+		              return True
+		            end if 
+		            
+		          else
+		            spit404(response)
+		            return True
+		          end if
+		          
+		        else
+		          spit404(response)
+		          return True
+		        end if
+		        
+		      case "1" //Tune
+		        
+		        Try
+		          rs = MyDB.SelectSQL("SELECT Location FROM tblTunes WHERE TuneID = ?", PathParts(3))
+		        Catch error As DatabaseException
+		          spit404(response)
+		        End Try
+		        
+		        if rs.RowCount>0 then
+		          rs.MoveToFirstRow
+		          
+		          Var f As New FolderItem(rs.Column("Location").StringValue, FolderItem.PathModes.Shell)
+		          
+		          If f <> Nil then
+		            if  f.Exists Then
+		              
+		              if spitFile206(response, f, Request.Header("Range").LastField("="), "tune_"+PathParts(3)+f.Name.LastField(".")) = true then
+		                return true
+		              else
+		                spit404(response)
+		                return True
+		              end if
+		              
+		            else
+		              spit404(response)
+		              return True
+		            end if 
+		            
+		          else
+		            spit404(response)
+		            return True
+		          end if
+		          
+		        else
+		          spit404(response)
+		          return True
+		        end if
+		        
+		      end select
 		    end if
-		    
-		    Var rs as RowSet
-		    
-		    select case Request.Parameter ( "gimmie" )
-		    case "damoov"
-		      
-		      Try
-		        rs = MyDB.SelectSQL("SELECT Location FROM tblMovies WHERE MovieID = ?", Request.Parameter ( "id" ))
-		      Catch error As DatabaseException
-		        spit404(response)
-		        return True
-		      End Try
-		      
-		      if rs.RowCount>0 then
-		        rs.MoveToFirstRow
-		        
-		        Var f As New FolderItem(rs.Column("Location").StringValue, FolderItem.PathModes.Shell)
-		        
-		        If f <> Nil then
-		          if  f.Exists Then
-		            
-		            if spitFile206(response, f, Request.Header("Range").LastField("="), "moov_"+Request.Parameter ( "id" )+f.Name.LastField(".")) = true then
-		              return true
-		            else
-		              spit404(response)
-		              return True
-		            end if
-		            
-		          else
-		            spit404(response)
-		            return True
-		          end if 
-		          
-		        else
-		          spit404(response)
-		          return True
-		        end if
-		        
-		      else
-		        spit404(response)
-		        return True
-		      end if
-		      
-		    case "datune"
-		      
-		      Try
-		        rs = MyDB.SelectSQL("SELECT Location FROM tblTunes WHERE TuneID = ?", Request.Parameter ( "id" ))
-		      Catch error As DatabaseException
-		        spit404(response)
-		      End Try
-		      
-		      if rs.RowCount>0 then
-		        rs.MoveToFirstRow
-		        
-		        Var f As New FolderItem(rs.Column("Location").StringValue, FolderItem.PathModes.Shell)
-		        
-		        If f <> Nil then
-		          if  f.Exists Then
-		            
-		            if spitFile206(response, f, Request.Header("Range").LastField("="), "tune_"+Request.Parameter ( "id" )+f.Name.LastField(".")) = true then
-		              return true
-		            else
-		              spit404(response)
-		              return True
-		            end if
-		            
-		          else
-		            spit404(response)
-		            return True
-		          end if 
-		          
-		        else
-		          spit404(response)
-		          return True
-		        end if
-		        
-		      else
-		        spit404(response)
-		        return True
-		      end if
-		      
-		    end select
 		  end if
 		  
-		  //If we get here we just hand out the login page
+		  //If we get here we just let xojo handle the request
 		End Function
 	#tag EndEvent
 
@@ -154,6 +169,9 @@ Inherits WebApplication
 		    MyPrefs.SaveXML(MyPrefsFile)
 		  end if
 		  
+		  if GetPrefsValue("https")="1" then
+		    USEhttpsURLs=true
+		  end if
 		  
 		  MyDBFile=App.ExecutableFile.Parent.Parent.Child("kastal.sqlite")
 		  MyDB = New SQLiteDatabase

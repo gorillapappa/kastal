@@ -377,6 +377,10 @@ Protected Module MainModule
 		MyScan4TunesThread As Scan4TunesThread = nil
 	#tag EndProperty
 
+	#tag Property, Flags = &h0
+		USEhttpsURLs As Boolean = false
+	#tag EndProperty
+
 
 	#tag Constant, Name = kEmailVerificationCode, Type = String, Dynamic = True, Default = \"Email Verification Code", Scope = Public
 		#Tag Instance, Platform = Any, Language = sv, Definition  = \"Epostverifieringskod"

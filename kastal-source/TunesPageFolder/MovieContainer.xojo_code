@@ -24,7 +24,6 @@ Begin WebContainer MovieContainer
    Width           =   482
    _mDesignHeight  =   0
    _mDesignWidth   =   0
-   _mName          =   ""
    _mPanelIndex    =   -1
    Begin WebRectangle Rectangle2
       BackgroundColor =   &c42424200
@@ -196,11 +195,13 @@ End
 		    end if
 		    
 		    var s As string
-		    #if  DebugBuild then
-		      s="http://"+Session.Host+myBasePath+"?sid="+Session.Identifier+"&gimmie=damoov&id="+me.RowTagAt(me.SelectedRowIndex).StringValue
-		    #else
-		      s="https://"+Session.Host+myBasePath+"?sid="+Session.Identifier+"&gimmie=damoov&id="+me.RowTagAt(me.SelectedRowIndex).StringValue
-		    #endif
+		    
+		    if USEhttpsURLs=true then
+		      s="https://"+Session.Host+myBasePath+"206-media-request/s"+Session.Identifier+"/2/"+me.RowTagAt(me.SelectedRowIndex).StringValue
+		    else
+		      s="http://"+Session.Host+myBasePath+"206-media-request/s"+Session.Identifier+"/2/"+me.RowTagAt(me.SelectedRowIndex).StringValue
+		    end if
+		    
 		    MovieDialog1.MyMoviePlayer.MovieURL=s
 		    MovieDialog1.Show
 		  end if
