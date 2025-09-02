@@ -94,7 +94,6 @@ Begin WebPage TunesPage
       _mPanelIndex    =   -1
    End
    Begin WebRectangle Rectangle1
-      BackgroundColor =   &c42424200
       BorderColor     =   &c22222200
       BorderThickness =   0
       ControlCount    =   0
@@ -102,7 +101,8 @@ Begin WebPage TunesPage
       CornerSize      =   0
       CSSClasses      =   ""
       Enabled         =   True
-      HasBackgroundColor=   True
+      FillColor       =   &c42424200
+      HasFillColor    =   True
       Height          =   30
       Index           =   -2147483648
       Indicator       =   0
@@ -165,7 +165,6 @@ Begin WebPage TunesPage
       End
    End
    Begin WebRectangle ContainerRectangle
-      BackgroundColor =   &cF9F3D200
       BorderColor     =   &c000000FF
       BorderThickness =   1
       ControlCount    =   0
@@ -173,7 +172,8 @@ Begin WebPage TunesPage
       CornerSize      =   10
       CSSClasses      =   ""
       Enabled         =   True
-      HasBackgroundColor=   False
+      FillColor       =   &cF9F3D200
+      HasFillColor    =   False
       Height          =   316
       Index           =   -2147483648
       Indicator       =   ""

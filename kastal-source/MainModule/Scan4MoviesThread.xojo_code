@@ -376,6 +376,14 @@ Inherits Thread
 				"1 - Preemptive"
 			#tag EndEnumValues
 		#tag EndViewProperty
+		#tag ViewProperty
+			Name="tMyDB"
+			Visible=false
+			Group="Behavior"
+			InitialValue="nil"
+			Type="SQLiteDatabase"
+			EditorType=""
+		#tag EndViewProperty
 	#tag EndViewBehavior
 End Class
 #tag EndClass

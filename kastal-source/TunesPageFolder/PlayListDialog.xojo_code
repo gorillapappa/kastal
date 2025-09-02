@@ -27,7 +27,6 @@ Begin WebDialog PlayListDialog
    _mDesignWidth   =   0
    _mPanelIndex    =   -1
    Begin WebRectangle Rectangle1
-      BackgroundColor =   &c42424200
       BorderColor     =   &cA9A9A900
       BorderThickness =   0
       ControlCount    =   0
@@ -35,7 +34,8 @@ Begin WebDialog PlayListDialog
       CornerSize      =   0
       CSSClasses      =   ""
       Enabled         =   True
-      HasBackgroundColor=   True
+      FillColor       =   &c42424200
+      HasFillColor    =   True
       Height          =   227
       Index           =   -2147483648
       Indicator       =   0

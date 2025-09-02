@@ -34,7 +34,6 @@ Begin WebPage LoginPage
    _mDesignWidth   =   0
    _mPanelIndex    =   -1
    Begin WebRectangle Rectangle3
-      BackgroundColor =   &cF9F3D200
       BorderColor     =   &c000000FF
       BorderThickness =   1
       ControlCount    =   0
@@ -42,7 +41,8 @@ Begin WebPage LoginPage
       CornerSize      =   0
       CSSClasses      =   ""
       Enabled         =   True
-      HasBackgroundColor=   False
+      FillColor       =   &cF9F3D200
+      HasFillColor    =   False
       Height          =   363
       Index           =   -2147483648
       Indicator       =   ""
@@ -69,7 +69,6 @@ Begin WebPage LoginPage
       _mPanelIndex    =   -1
    End
    Begin WebRectangle Rectangle2
-      BackgroundColor =   &cFFFFFF
       BorderColor     =   &c000000FF
       BorderThickness =   1
       ControlCount    =   0
@@ -77,7 +76,8 @@ Begin WebPage LoginPage
       CornerSize      =   10
       CSSClasses      =   ""
       Enabled         =   True
-      HasBackgroundColor=   True
+      FillColor       =   &cFFFFFF
+      HasFillColor    =   True
       Height          =   346
       Index           =   -2147483648
       Indicator       =   0
@@ -310,7 +310,6 @@ Begin WebPage LoginPage
       End
    End
    Begin WebRectangle Rectangle1
-      BackgroundColor =   &c42424200
       BorderColor     =   &c000000FF
       BorderThickness =   0
       ControlCount    =   0
@@ -318,7 +317,8 @@ Begin WebPage LoginPage
       CornerSize      =   0
       CSSClasses      =   ""
       Enabled         =   True
-      HasBackgroundColor=   True
+      FillColor       =   &c42424200
+      HasFillColor    =   True
       Height          =   56
       Index           =   -2147483648
       Indicator       =   0
@@ -381,7 +381,6 @@ Begin WebPage LoginPage
       End
    End
    Begin WebRectangle AccountFooter
-      BackgroundColor =   &c42424200
       BorderColor     =   &c000000FF
       BorderThickness =   0
       ControlCount    =   0
@@ -389,7 +388,8 @@ Begin WebPage LoginPage
       CornerSize      =   0
       CSSClasses      =   ""
       Enabled         =   True
-      HasBackgroundColor=   True
+      FillColor       =   &c42424200
+      HasFillColor    =   True
       Height          =   30
       Index           =   -2147483648
       Indicator       =   0

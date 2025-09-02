@@ -27,7 +27,6 @@ Begin WebDialog ResetPasswordDialog
    _mDesignWidth   =   0
    _mPanelIndex    =   -1
    Begin WebRectangle Rectangle4
-      BackgroundColor =   &cDFDFDF00
       BorderColor     =   &c000000FF
       BorderThickness =   1
       ControlCount    =   0
@@ -35,7 +34,8 @@ Begin WebDialog ResetPasswordDialog
       CornerSize      =   -1
       CSSClasses      =   ""
       Enabled         =   True
-      HasBackgroundColor=   True
+      FillColor       =   &cDFDFDF00
+      HasFillColor    =   True
       Height          =   40
       Index           =   -2147483648
       Indicator       =   0

@@ -27,7 +27,6 @@ Begin WebDialog MovieDialog
    _mDesignWidth   =   0
    _mPanelIndex    =   -1
    Begin WebRectangle Rectangle1
-      BackgroundColor =   &c00000000
       BorderColor     =   &c00000000
       BorderThickness =   0
       ControlCount    =   0
@@ -35,7 +34,8 @@ Begin WebDialog MovieDialog
       CornerSize      =   -1
       CSSClasses      =   ""
       Enabled         =   True
-      HasBackgroundColor=   True
+      FillColor       =   &c00000000
+      HasFillColor    =   True
       Height          =   180
       Index           =   -2147483648
       Indicator       =   ""

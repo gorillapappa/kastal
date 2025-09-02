@@ -171,8 +171,8 @@ Implements WebDataSource
 		    While Not rs.AfterLastRow
 		      Var row As New WebListBoxRowData
 		      row.PrimaryKey = rs.Column("MovieID").IntegerValue
-		      row.Value("Title") = "<h3 style=""margin:10px;"">🎥 "+rs.Column("Title").StringValue+"</h3>"//<p style=""margin:10px;"">🪩 "+rs.Column("Band").StringValue+"<br>📀 "+rs.Column("Album").StringValue+"</p>"//rs.Column("Band").StringValue
-		      row.Value("IMDB") =  "<p><a href=https://www.imdb.com/find/?q="+EncodeURLComponent(rs.Column("Title").StringValue.NthField(".", 1))+" target=""_blank"">IMDB</a></p>"
+		      row.Value("Title") = "<raw><h3 style=""margin:10px;"">🎥 "+rs.Column("Title").StringValue+"</h3></raw>"//<p style=""margin:10px;"">🪩 "+rs.Column("Band").StringValue+"<br>📀 "+rs.Column("Album").StringValue+"</p>"//rs.Column("Band").StringValue
+		      row.Value("IMDB") =  "<raw><p><a href=https://www.imdb.com/find/?q="+EncodeURLComponent(rs.Column("Title").StringValue.NthField(".", 1))+" target=""_blank"">IMDB</a></p></raw>"
 		      row.Tag=rs.Column("MovieID").StringValue
 		      rows.Add(row)
 		      rs.MoveToNextRow

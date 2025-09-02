@@ -26,7 +26,6 @@ Begin WebContainer AdminContainer
    _mDesignWidth   =   0
    _mPanelIndex    =   -1
    Begin WebRectangle Rectangle1
-      BackgroundColor =   &cFFFFFF
       BorderColor     =   &c000000FF
       BorderThickness =   1
       ControlCount    =   0
@@ -34,7 +33,8 @@ Begin WebContainer AdminContainer
       CornerSize      =   -1
       CSSClasses      =   ""
       Enabled         =   True
-      HasBackgroundColor=   False
+      FillColor       =   &cFFFFFF
+      HasFillColor    =   False
       Height          =   257
       Index           =   -2147483648
       Indicator       =   ""
@@ -369,7 +369,6 @@ Begin WebContainer AdminContainer
       _mPanelIndex    =   -1
    End
    Begin WebRectangle Rectangle2
-      BackgroundColor =   &cFFFFFF
       BorderColor     =   &c000000FF
       BorderThickness =   1
       ControlCount    =   0
@@ -377,7 +376,8 @@ Begin WebContainer AdminContainer
       CornerSize      =   -1
       CSSClasses      =   ""
       Enabled         =   True
-      HasBackgroundColor=   False
+      FillColor       =   &cFFFFFF
+      HasFillColor    =   False
       Height          =   342
       Index           =   -2147483648
       Indicator       =   ""
@@ -646,7 +646,6 @@ Begin WebContainer AdminContainer
       _mPanelIndex    =   -1
    End
    Begin WebRectangle Rectangle3
-      BackgroundColor =   &cFFFFFF
       BorderColor     =   &c000000FF
       BorderThickness =   1
       ControlCount    =   0
@@ -654,7 +653,8 @@ Begin WebContainer AdminContainer
       CornerSize      =   -1
       CSSClasses      =   ""
       Enabled         =   True
-      HasBackgroundColor=   False
+      FillColor       =   &cFFFFFF
+      HasFillColor    =   False
       Height          =   596
       Index           =   -2147483648
       Indicator       =   ""
@@ -1069,7 +1069,6 @@ Begin WebContainer AdminContainer
       _mPanelIndex    =   -1
    End
    Begin WebRectangle Rectangle4
-      BackgroundColor =   &cFFFFFF
       BorderColor     =   &c000000FF
       BorderThickness =   1
       ControlCount    =   0
@@ -1077,7 +1076,8 @@ Begin WebContainer AdminContainer
       CornerSize      =   -1
       CSSClasses      =   ""
       Enabled         =   True
-      HasBackgroundColor=   False
+      FillColor       =   &cFFFFFF
+      HasFillColor    =   False
       Height          =   403
       Index           =   -2147483648
       Indicator       =   ""
@@ -1195,7 +1195,6 @@ Begin WebContainer AdminContainer
       _mPanelIndex    =   -1
    End
    Begin WebRectangle Rectangle5
-      BackgroundColor =   &cFFFFFF
       BorderColor     =   &c000000FF
       BorderThickness =   1
       ControlCount    =   0
@@ -1203,7 +1202,8 @@ Begin WebContainer AdminContainer
       CornerSize      =   -1
       CSSClasses      =   ""
       Enabled         =   True
-      HasBackgroundColor=   False
+      FillColor       =   &cFFFFFF
+      HasFillColor    =   False
       Height          =   120
       Index           =   -2147483648
       Indicator       =   ""
@@ -1249,6 +1249,7 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle5"
          Scope           =   2
          TabIndex        =   0
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Tooltip         =   ""
          Top             =   64
@@ -1281,6 +1282,7 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle5"
          Scope           =   2
          TabIndex        =   36
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Text            =   "Requires that you set up https, either on the app itself or through a reverse proxy like nginx."
          TextAlignment   =   0
@@ -1317,6 +1319,7 @@ Begin WebContainer AdminContainer
          Parent          =   "Rectangle5"
          Scope           =   0
          TabIndex        =   37
+         TabPanelIndex   =   "0"
          TabStop         =   True
          Target          =   1
          Text            =   "More info here"

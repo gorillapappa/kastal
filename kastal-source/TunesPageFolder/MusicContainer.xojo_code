@@ -26,7 +26,6 @@ Begin WebContainer MusicContainer
    _mDesignWidth   =   0
    _mPanelIndex    =   -1
    Begin WebRectangle Rectangle2
-      BackgroundColor =   &c42424200
       BorderColor     =   &c818C7800
       BorderThickness =   0
       ControlCount    =   0
@@ -34,7 +33,8 @@ Begin WebContainer MusicContainer
       CornerSize      =   0
       CSSClasses      =   ""
       Enabled         =   True
-      HasBackgroundColor=   True
+      FillColor       =   &c42424200
+      HasFillColor    =   True
       Height          =   54
       Index           =   -2147483648
       Indicator       =   0
@@ -159,7 +159,6 @@ Begin WebContainer MusicContainer
       End
    End
    Begin WebRectangle Rectangle1
-      BackgroundColor =   &c42424200
       BorderColor     =   &c818C7800
       BorderThickness =   0
       ControlCount    =   0
@@ -167,7 +166,8 @@ Begin WebContainer MusicContainer
       CornerSize      =   0
       CSSClasses      =   ""
       Enabled         =   True
-      HasBackgroundColor=   True
+      FillColor       =   &c42424200
+      HasFillColor    =   True
       Height          =   84
       Index           =   -2147483648
       Indicator       =   ""
@@ -454,7 +454,6 @@ Begin WebContainer MusicContainer
       _mPanelIndex    =   -1
    End
    Begin WebRectangle Rectangle3
-      BackgroundColor =   &c42424200
       BorderColor     =   &c818C7800
       BorderThickness =   0
       ControlCount    =   0
@@ -462,7 +461,8 @@ Begin WebContainer MusicContainer
       CornerSize      =   0
       CSSClasses      =   ""
       Enabled         =   True
-      HasBackgroundColor=   True
+      FillColor       =   &c42424200
+      HasFillColor    =   True
       Height          =   54
       Index           =   -2147483648
       Indicator       =   0

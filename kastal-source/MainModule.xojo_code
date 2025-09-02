@@ -446,6 +446,22 @@ Protected Module MainModule
 			Type="String"
 			EditorType="MultiLineEditor"
 		#tag EndViewProperty
+		#tag ViewProperty
+			Name="MyDB"
+			Visible=false
+			Group="Behavior"
+			InitialValue="nil"
+			Type="SQLiteDatabase"
+			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="USEhttpsURLs"
+			Visible=false
+			Group="Behavior"
+			InitialValue="false"
+			Type="Boolean"
+			EditorType=""
+		#tag EndViewProperty
 	#tag EndViewBehavior
 End Module
 #tag EndModule

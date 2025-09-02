@@ -205,9 +205,9 @@ Implements WebDataSource
 		      
 		      Var row As New WebListBoxRowData
 		      row.PrimaryKey = rs.Column("TuneID").IntegerValue
-		      row.Value("Band") = "<h3 style=""margin:0 10 0 10;"">"+rs.Column("Title").StringValue+"</h3><p style=""margin:0 10 0 10;"">💿 "+rs.Column("Album").StringValue+y+"<br>🎭 "+rs.Column("Band").StringValue+"</p>"//rs.Column("Band").StringValue
+		      row.Value("Band") = "<raw><h3 style=""margin:0 10 0 10;"">"+rs.Column("Title").StringValue+"</h3><p style=""margin:0 10 0 10;"">💿 "+rs.Column("Album").StringValue+y+"<br>🎭 "+rs.Column("Band").StringValue+"</p></raw>"//rs.Column("Band").StringValue
 		      
-		      row.Value("More") = "<h3 style=""margin:10px;"">"+edit+"</h3>"//<p style=""margin:10px;"">💿 "+rs.Column("Album").StringValue+"<br>🎭 "+rs.Column("Band").StringValue+"</p>"//rs.Column("Band").StringValue
+		      row.Value("More") = "<raw><h3 style=""margin:10px;"">"+edit+"</h3></raw>"//<p style=""margin:10px;"">💿 "+rs.Column("Album").StringValue+"<br>🎭 "+rs.Column("Band").StringValue+"</p>"//rs.Column("Band").StringValue
 		      
 		      row.Tag=rs.Column("TuneID").StringValue
 		      rows.Add(row)
