@@ -3,9 +3,10 @@
 ### Main features:
 -  Easily handles a media library consisting of tens of thousands of audio and video files, even on a Raspberry Pi
 -  Reads valid ID3 Tags
--  Streams media files of any size, to any web browser
--  Multi threaded quick scanning of local music and movie folders
+-  Streams media files (music & video) of any size, to any web browser
 -  Simple and easy to use user interface on all devices, less is more...
+-  Cast/Play on Google Chromecast
+-  Multi threaded quick scanning of local music and movie folders
 -  Secure multi user support with secure email verification password reset functionality
 -  Quick search for Song title, album, band or Movie title
 -  Create private and/or public playlists
